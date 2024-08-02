@@ -15,7 +15,7 @@ body {
 
 header { /* Стили для хедера */
     background-color: #2965F1;
-    padding: 23px 0;
+    padding: 23px 0px;
 }
 
 header span {
@@ -29,9 +29,10 @@ header span {
 
 .main-section {
     /* Стили для первой секции */
-    background-color: #fafaff;
-    margin: 60px 0;
+    background: #fafaff;
+    margin: 60px 0px;
     min-height: 100vh;
+    height: 1024px;
 }
 
 .main-title {
@@ -40,6 +41,7 @@ header span {
     font-weight: 700;
     line-height: 58px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -50,7 +52,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
     height: 508px;
     background-size: contain
 }
@@ -58,7 +60,7 @@ header span {
 .about-section {
     /* Стили для второй секции */
     background-color: #fff;
-    padding: 100px 0;
+    padding: 100px 0px;
 }
 
 select {
@@ -78,22 +80,22 @@ select {
 
 .section-title {
     /* Стили для заголовков во второй секции */
-    font-size: 24px;
     font-weight: 700;
-    padding-bottom: 25px;
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./Marker.svg);
-    padding-left: 20px;
+    padding: 0px 20px;
     font-size: 16px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     list-style: decimal;
-    padding-left: 20px;
+    padding: 0px 0px 0px 20px;
     font-size: 16px;
 }
 
@@ -129,7 +131,7 @@ select {
 .line {
     /* Стили для линии */
     border: 1px solid rgba(48, 48, 48, 0.3);
-    margin: 60px 0;
+    margin: 60px 0px;
 }
 
 table {
@@ -140,18 +142,17 @@ table {
     border: 1px solid #95a1bb;
 }
 
-th {
+th, td {
     /* Стили для ячеек таблицы */
     font-weight: 700;
     font-size: 14px;
     text-align: center;
-    color: #303030; 
+    color: #303030;
+    padding: 12px 15px; 
 }
 
 td {
-    font-size: 14px;
-    color: #303030;
-    padding-left: 15px;
+    font-weight: 400;
 }
 
 footer {
@@ -166,5 +167,5 @@ footer {
     font-size: 14px;
     text-decoration: none;
     position: absolute;
-    padding: 26px 0 27px 0;
+    padding: 26px 0px;
 }
