@@ -30,16 +30,16 @@ header span {
 .main-section {
     /* Стили для первой секции */
     background: #fafaff;
-    margin: 60px 0px;
+    padding: 60px 0px;
     min-height: 100vh;
     height: 1024px;
+    width: 1440px;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
     font-size: 48px;
     font-weight: 700;
-    line-height: 58px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -47,14 +47,11 @@ header span {
 .main-text {
     /* Стили для текста в первой секции */
     font-size: 18px;
-    line-height: 22px;
 }
 
 .main-image {
     /* Стили для изображения в первой секции */
     max-width: 715px;
-    height: 508px;
-    background-size: contain
 }
 
 .about-section {
@@ -167,5 +164,5 @@ footer {
     font-size: 14px;
     text-decoration: none;
     position: absolute;
-    padding: 26px 0px;
+    padding: 26px 0 27px 1px;
 }
