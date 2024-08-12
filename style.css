@@ -92,7 +92,7 @@ select {
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     list-style: decimal;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 20px;
     font-size: 16px;
 }
 
@@ -137,12 +137,12 @@ table {
     width: 300px;
     height: 196px;
     border: 1px solid #95a1bb;
+    font-size: 14px;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
     font-weight: 700;
-    font-size: 14px;
     text-align: center;
     color: #303030;
     padding: 12px 15px; 
@@ -164,5 +164,5 @@ footer {
     font-size: 14px;
     text-decoration: none;
     position: absolute;
-    padding: 26px 0 27px 1px;
+    padding: 26px 1px;
 }
