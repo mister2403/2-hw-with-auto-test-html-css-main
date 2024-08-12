@@ -154,6 +154,7 @@ td {
 
 footer {
     /* Стили для футера */
+    width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
 }
