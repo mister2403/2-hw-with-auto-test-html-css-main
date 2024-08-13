@@ -157,6 +157,7 @@ footer {
     width: 1440px;
     height: 70px;
     background: rgba(163, 167, 255, 0.3);
+    padding: 26px 0;
 }
 
 .footer-link {
@@ -165,5 +166,4 @@ footer {
     font-size: 14px;
     text-decoration: none;
     position: absolute;
-    padding: 26px 1px;
 }
